@@ -6,6 +6,6 @@ for feld in range(64):
         .format(feld+1,reiskorn,summe))
 gewicht = summe * 0.02 /1000 /1000
 print()
-print()
+
 print("Wenn ein Reiskorn 0,02 Gramm wiegt, wiegen die gesamten")
 print("Reiskörner {:,.0f} Tonnen".format(gewicht))
